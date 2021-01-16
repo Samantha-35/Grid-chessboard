@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.grid-container{
+    height: 70vh;
+    width: 70vh;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);   
+    border: solid grey 7px;
+}
+.item1{
+    display:flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.item2{
+    display:flex;
+    justify-content: center;
+    background-color:grey;
+ 
+}
