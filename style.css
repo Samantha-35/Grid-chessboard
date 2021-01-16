@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);   
-    border: solid grey 7px;
+    border: solid rgb(63, 62, 62) 15px;
 }
 .item1{
     display:flex;
@@ -32,4 +32,9 @@
     justify-content: center;
     background-color:grey;
  
+}
+.pawn{
+    margin-top:10px;
+    width: 30px;
+    height: 30px;
 }
